@@ -5,7 +5,9 @@
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
-        "server": "nodemon app.js"
+        "serve": "nodemon app.js",
+        "client": "npm run start --prefix client",
+        "dev": "concurrently \"npm run serve\" \"npm run client\""
     },
     "keywords": [
         "mern",
@@ -21,6 +23,7 @@
         "express": "^4.17.1",
         "express-validator": "^6.3.1",
         "jsonwebtoken": "^8.5.1",
+        "materialize-css": "^1.0.0-rc.2",
         "mongoose": "^5.8.3"
     },
     "devDependencies": {
