@@ -1,0 +1,18 @@
+.toast.show {
+    top: 3em;
+    right: 10%;
+    padding: 10px;
+    color: #3e3e3e;
+    font-size: medium;
+    background: rgba(200, 40, 40, 0.3);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, .4);
+    position: fixed;
+}
+
+.fade {
+    display: none;
+}
+
+.toast:last-child {
+    background: rgba(40, 400, 40, 0.3);
+}

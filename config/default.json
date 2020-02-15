@@ -1,7 +1,6 @@
 {
     "port": 5000,
     "jwtSecret": "alexkolesnik mern nodejs",
-    "mongoUri": "mongodb+srv://alex:alex1212@cluster0-ukzmc.mongodb.net/app?retryWrites=true&w=majority",
+    "mongoUrl": "mongodb+srv://alex:alex1212@cluster0-ukzmc.mongodb.net/app?retryWrites=true&w=majority",
     "mongoLocal": "mongodb://127.0.0.1:27017/mern-course"
-
 }
